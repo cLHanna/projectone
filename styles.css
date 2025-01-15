@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/* Added a min-width to stop overflow. Unsure yet of a better way at the moment */
+
 body {
     font-family: 'Roboto', 'Times New Roman';
     min-width: 1000px;
@@ -58,7 +60,8 @@ li {
 }
 
 /* Could not find an image that would fit the theme I picked out with 
-the example's dimensions exactly. I'm noting the difference. */
+the example's dimensions exactly. I'm noting the difference. I could 
+flex-basis to a higher size but it would distort the image */
 .welcome {
     display: flex;
     margin: 54px 0px;
