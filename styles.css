@@ -1,0 +1,180 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', 'Times New Roman';
+    min-width: 1000px;
+    display: flex;
+    flex-flow: column nowrap;
+    
+}
+
+.topcontainer {
+    display: flex;
+    flex-flow: column nowrap;
+    background-color: #1f2937;
+    margin: 0px 188px;
+    padding: 0px 200px;
+    align-content: 
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 18px;
+    align-items: center;
+}
+
+.header h4 {
+    font-size: 24px;
+    color: #f9faf8;
+    flex: 1;
+}
+
+.links {
+    color: #E5E7EB;
+    font-size: 18px;
+    flex: 
+}
+
+ul {
+    display: flex;
+    gap: 24px;
+}
+
+li {
+    list-style: none;
+}
+
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+/* Could not find an image that would fit the theme I picked out with 
+the example's dimensions exactly. I'm noting the difference. */
+.welcome {
+    display: flex;
+    margin: 54px 0px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.welcome-text {
+    display: flex;
+    flex-flow: column nowrap;
+    length: 200px;
+    gap: 16px;
+    width: 500px;
+    flex-wrap: wrap;
+    
+}
+
+.welcome-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+    flex-shrink: 0;
+}
+.welcome-text button {
+    background-color: #3882F6;
+    color: white;
+    padding: 8px;
+    width: 108px;
+    border-radius: 8px;
+    border-style: none;
+}
+.welcome img {
+    border-radius: 24px;
+    
+}
+.middlecontainer {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 32px 300px 80px;
+    padding: 12px;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.middlecontainer h3 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.middlecontainer img {
+    border-style: solid;   
+    border-radius: 12px; 
+    border-color:#3882F6
+}
+
+.middlecontainer li {
+    width: 120px;
+    text-align: center;
+}
+
+.middlecontainer ul {
+    gap: 94px;
+}
+
+.quotecontainer {
+    margin: 0px 188px;
+    padding: 140px 310px;
+    background-color: #E5E7EB;
+    color:#1F2937
+}
+
+#quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    flex-wrap: wrap;
+    flex: 1 0 0;
+}
+
+#quotee {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 18px 0px 0px 600px;
+}
+
+.signupcontainer {
+    display: flex;
+    background-color: #3882F6;
+    color:#E5E7EB;
+    margin: 80px 622px;
+    border-radius: 8px;
+    padding: 40px 72px;
+    justify-content: space-between;
+}
+
+.text h3 { 
+    font-size: larger;
+}
+
+.signupcontainer button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 8px;
+    border-color: white;
+    width: 124px;
+    padding: 2px 8px;
+}
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color:#F9FAF8;
+    margin: 0px 188px;
+    padding: 36px;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-end;
+}
