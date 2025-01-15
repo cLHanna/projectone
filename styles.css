@@ -89,6 +89,7 @@ flex-basis to a higher size but it would distort the image */
     width: 108px;
     border-radius: 8px;
     border-style: none;
+    flex-shrink: 0;
 }
 .welcome img {
     border-radius: 24px;
@@ -176,7 +177,7 @@ flex-basis to a higher size but it would distort the image */
     border-color: white;
     width: 124px;
     padding: 2px 8px;
-    flex-shrink: 2;
+    flex-shrink: 0;
     min-width: 100px;
 }
 .footer {
